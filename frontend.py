@@ -6,7 +6,7 @@ from equityui import NativeBarChart, PlotlyBarChart
 import time
 
 st.set_page_config(page_title="Equity Dashboard", layout="wide")
-backend_url = os.getenv("BACKEND_URL", "http://localhost:8000")
+backend_url = os.getenv("BACKEND_URL", "https://streamlittestnew.onrender.com")
 
 st.title("Equity Allocations")
 

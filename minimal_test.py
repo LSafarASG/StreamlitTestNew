@@ -9,7 +9,7 @@ import json
 
 def test_minimal():
     """Test with minimal overhead."""
-    backend_url = "http://localhost:8000"
+    backend_url = "https://streamlittestnew.onrender.com"
     
     print("🔍 Testing minimal backend performance...")
     print(f"📡 Backend: {backend_url}")
